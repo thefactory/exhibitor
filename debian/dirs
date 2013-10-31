@@ -1,0 +1,2 @@
+var/lib/exhibitor
+var/log/exhibitor/zookeeper_log_indexes

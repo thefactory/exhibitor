@@ -1,0 +1,4 @@
+exhibitor-standalone/src/main/resources/buildscripts/standalone/gradle/build/libs/exhibitor.jar var/lib/exhibitor/
+debian/scripts/check-local-zk.py usr/bin/
+debian/scripts/defaultconfig.exhibitor etc/exhibitor/
+debian/scripts/exhibitor.conf etc/init/exhibitor.conf

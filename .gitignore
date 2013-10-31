@@ -40,6 +40,9 @@ Thumbs.db
 ################
 .gradle
 
+# Debian/Quilt dirs
+.pc/
+
 # Build output directies
 /target
 */target

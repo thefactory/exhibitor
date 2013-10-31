@@ -1,0 +1,10 @@
+--- a/exhibitor-standalone/src/main/resources/buildscripts/standalone/gradle/build.gradle
++++ b/exhibitor-standalone/src/main/resources/buildscripts/standalone/gradle/build.gradle
+@@ -2,6 +2,7 @@
+ apply plugin: 'maven'
+ group = 'exhibitor'
+ version = '1.5.1'
++jar.archiveName = "exhibitor.jar"
+ 
+ repositories {
+     mavenCentral()

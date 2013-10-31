@@ -1,0 +1,16 @@
+Source: exhibitor
+Section: unknown
+Priority: extra
+Maintainer: The Factory Ops <ops@thefactory.com>
+Build-Depends: debhelper (>= 8.0.0), javahelper
+Build-Depends-Indep: default-jdk | openjdk-6-jdk
+Standards-Version: 3.9.2
+Homepage: https://github.com/Netflix/exhibitor
+Vcs-Git: git://git@github.com:Netflix/exhibitor.git
+
+Package: exhibitor
+Architecture: all
+Depends: ${java:Depends}, ${misc:Depends}, java6-runtime | openjdk-6-jre-headless, zookeeper
+Recommends: ${java:Recommends}
+Description: ZooKeeper co-process for instance monitoring, backup/recovery, cleanup and visualization.
+ Exhibitor is a supervisor system for ZooKeeper.

@@ -1,0 +1,17 @@
+auto-manage-instances=1
+auto-manage-instances-settling-period-ms=0
+backup-extra=
+backup-period-ms=0
+backup-max-store-ms=0
+check-ms=30000
+cleanup-period-ms=300000
+client-port=2181
+cleanup-max-files=20
+connect-port=2888
+election-port=3888
+log-index-directory=/var/log/exhibitor/zookeeper_log_indexes
+observer-threshold=0
+zoo-cfg-extra=tickTime\=2000&initLimit\=10&syncLimit\=5
+zookeeper-data-directory=/var/lib/zookeeper
+zookeeper-install-directory=/usr/lib/zookeeper
+zookeeper-log-directory=/var/log/zookeeper/txlog
