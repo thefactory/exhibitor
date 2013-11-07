@@ -1,3 +1,9 @@
+exhibitor (1.5.1-factory4) unstable; urgency=low
+
+  * Better defaults and upstart logging
+
+ -- The Factory Ops <ops@thefactory.com>  Thu, 7 Nov 2013 13:49:00 -0700
+
 exhibitor (1.5.1-factory3) unstable; urgency=low
 
   * Fix jar location in upstart script

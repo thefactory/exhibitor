@@ -9,9 +9,9 @@ client-port=2181
 cleanup-max-files=20
 connect-port=2888
 election-port=3888
-log-index-directory=/var/log/exhibitor/zookeeper_log_indexes
+log-index-directory=/var/lib/zookeeper_transactions
 observer-threshold=0
 zoo-cfg-extra=tickTime\=2000&initLimit\=10&syncLimit\=5
-zookeeper-data-directory=/var/lib/zookeeper
+zookeeper-data-directory=/var/lib/zookeeper_snapshots
 zookeeper-install-directory=/usr/lib/zookeeper
-zookeeper-log-directory=/var/log/zookeeper/txlog
+zookeeper-log-directory=/var/lib/zookeeper_transactions
